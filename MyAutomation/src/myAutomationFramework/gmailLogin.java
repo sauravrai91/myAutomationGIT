@@ -12,5 +12,7 @@ public class gmailLogin {
 		 WebDriver driver = new ChromeDriver();
 		 driver.manage().window().maximize();
 		 driver.get("http://toolsqa.wpengine.com/automation-practice-form/");
+		 System.out.print("Hello");
 		 }	
+	
 }
