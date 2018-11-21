@@ -2,9 +2,11 @@ package myAutomationFramework;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class gmailLogin {
 
+	@Test
 	public static void main(String[] args) {
 		
 		 String exePath = "D:\\Tech\\MyWorkspace\\chromedriver.exe";
@@ -14,5 +16,4 @@ public class gmailLogin {
 		 driver.get("http://toolsqa.wpengine.com/automation-practice-form/");
 		 System.out.print("Hello There What's Up");
 		 }	
-	
 }
