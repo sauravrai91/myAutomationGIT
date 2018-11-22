@@ -17,21 +17,5 @@
     </plugins>
   </build>
   <dependencies>
-  	<dependency>
-  		<groupId>org.seleniumhq.selenium</groupId>
-  		<artifactId>selenium-java</artifactId>
-  		<version>3.141.59</version>
-  	</dependency>
-  	<dependency>
-    	<groupId>org.testng</groupId>
-    	<artifactId>testng</artifactId>
-    	<version>6.14.3</version>
-    	<scope>compile</scope>
-	</dependency>
-	<dependency>
-    	<groupId>org.apache.maven.surefire</groupId>
-    	<artifactId>surefire-api</artifactId>
-    	<version>3.0.0-M1</version>
-</dependency>
   </dependencies>
 </project>
