@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
  
-public class MyTestClass {
+public class MyTestClassForJenkins {
  
  public WebDriver driver;
  
@@ -21,6 +21,7 @@ public class MyTestClass {
       driver.findElement(By.id("login")).click();
       System.out.println(" Login Successfully, now it is the time to Log Off buddy.");
       driver.findElement(By.id("account_logout")).click();
+      System.out.println(" Login Successfully, now it is the time to Log Off buddy.");
   }
  
   @BeforeMethod
