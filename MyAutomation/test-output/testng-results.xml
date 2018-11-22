@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10" started-at="2018-11-21T20:01:13Z" finished-at="2018-11-21T20:01:13Z">
+  <suite name="Default suite" duration-ms="49214" started-at="2018-11-22T16:09:01Z" finished-at="2018-11-22T16:09:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10" started-at="2018-11-21T20:01:13Z" finished-at="2018-11-21T20:01:13Z">
+    <test name="Default test" duration-ms="49214" started-at="2018-11-22T16:09:01Z" finished-at="2018-11-22T16:09:51Z">
+      <class name="myAutomationFramework.MyTestClass">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:myAutomationFramework.MyTestClass@19f379]" name="beforeClass" is-config="true" duration-ms="29150" started-at="2018-11-22T16:09:01Z" finished-at="2018-11-22T16:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="openMyBlog()[pri:0, instance:myAutomationFramework.MyTestClass@19f379]" name="openMyBlog" duration-ms="19076" started-at="2018-11-22T16:09:31Z" finished-at="2018-11-22T16:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMyBlog -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:myAutomationFramework.MyTestClass@19f379]" name="afterClass" is-config="true" duration-ms="865" started-at="2018-11-22T16:09:50Z" finished-at="2018-11-22T16:09:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- myAutomationFramework.MyTestClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
