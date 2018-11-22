@@ -2,7 +2,7 @@
 <suite name="My Test Suite">
 	<test name="My Test">
 		<classes>
-			<class name="myAutomationFramework.MyTestClass"/>
+			<class name="myAutomationFramework.MyTestClassForJenkins"/>
 		</classes>
 	</test>
 </suite> 
