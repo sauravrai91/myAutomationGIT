@@ -16,18 +16,19 @@ public class MyTestClass {
  
   public void main() {
       driver.findElement(By.id("account")).click();
-      driver.findElement(By.id("log")).sendKeys("testuser_1");
-      driver.findElement(By.id("pwd")).sendKeys("Test@123");
+      driver.findElement(By.id("log")).sendKeys("saurav");
+      driver.findElement(By.id("pwd")).sendKeys("hS&&EaBE1^3hB2j6");
       driver.findElement(By.id("login")).click();
       System.out.println(" Login Successfully, now it is the time to Log Off buddy.");
-      driver.findElement(By.id("account_logout"));
+      driver.findElement(By.id("account_logout")).click();
   }
  
   @BeforeMethod
   public void beforeMethod() {
+	  System.setProperty("webdriver.chrome.driver", "D:\\Tech\\MyWorkspace\\chromedriver.exe");
       driver = new ChromeDriver();
       driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-      driver.get("http://www.onlinestore.toolsqa.wpengine.com");
+      driver.get("http://www.store.demoqa.com");
   }
  
   @AfterMethod
