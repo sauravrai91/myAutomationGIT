@@ -1,0 +1,7 @@
+<suite name="My Test Suite">
+	<test name="My Test">
+		<classes>
+			<class name="myAutomationFramework.MyTestClass"/>
+		</classes>
+	</test>
+</suite> 
